@@ -1,0 +1,40 @@
+h1 {
+    font-size: 30px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+div span{
+    display:inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+    border: solid black;
+    background-color: rgb(116, 116, 196);
+}
+
+/* div span:nth-child(n+6) {
+    background-color:orange;
+} */
+
+
+div span:nth-child(-n+5) {
+    background-color:orange;
+}
+
+/* 
+div span:nth-child(4n+1) {
+    background-color: orange;
+}
+
+
+div span:nth-last-child(-n+5) {
+    background-color:orange;
+}
+
+
+div span:nth-last-child(2) {
+    background-color: orange;
+} */

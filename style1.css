@@ -1,0 +1,17 @@
+h1 {
+    font-size: 30px;
+}
+
+div span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color:yellow;
+    border: 2px solid black;
+    margin-right: 4px;
+}
+
+div span:nth-child(odd){
+    background-color: green;
+    margin-bottom: 20px;
+}

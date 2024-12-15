@@ -1,0 +1,21 @@
+h1 {
+    font-size: 30px;
+}
+
+div span{
+    display:inline-block;
+    width: 40px;
+    height: 40px;
+    background-color:green;
+    margin-bottom: 5px;
+}
+
+div span:nth-child(6n+4){
+    background-color: blue;
+}
+div span:nth-child(6n+5){
+    background-color: blue;
+}
+div span:nth-child(6n+6){
+    background-color: blue;
+}
